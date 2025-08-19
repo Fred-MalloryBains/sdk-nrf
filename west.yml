@@ -37,6 +37,8 @@ manifest:
       url-base: https://github.com/eembc
     - name: roro
       url-base: https://github.com/rob-robinson-14
+    - name: alba
+      url-base: https://github.com/Fred-MalloryBains
 
   # If not otherwise specified, the projects below should be obtained
   # from the ncs remote.
@@ -67,8 +69,8 @@ manifest:
     # https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/zephyr/guides/modules.html
     - name: zephyr
       repo-path: sdk-zephyr
-      remote: roro
-      revision: nrfutil-next-for-twister
+      remote: alba
+      revision: config-wdt
       import:
         # In addition to the zephyr repository itself, NCS also
         # imports the contents of zephyr/west.yml at the above
